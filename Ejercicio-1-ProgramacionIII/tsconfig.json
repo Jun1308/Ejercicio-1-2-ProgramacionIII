@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Módulos */
+    "module": "commonjs", /* Usar CommonJS para Node.js */
+    "moduleResolution": "node", /* Resolución de módulos estilo Node */
+    "esModuleInterop": true, /* Interoperabilidad entre ESM y CJS */
+    /* Versión de JS de salida */
+    "target": "ES2020", /* Compilar a JavaScript moderno (ES2020) */
+    /* Directorios */
+    "outDir": "./dist", /* Carpeta de salida para archivos compilados */
+    "rootDir": "./src", /* Carpeta raíz del código fuente */
+    /* Chequeos estrictos */
+    "strict": true, /* Activar todas las comprobaciones estrictas de tipo */
+    "forceConsistentCasingInFileNames": true, /* Forzar consistencia de mayúsculas/minúsculas */
+    "skipLibCheck": true /* Omitir chequeo de tipos en archivos de definición (.d.ts) para velocidad */
+  },
+  "include": [
+    "src/**/*"
+  ], /* Incluir todos los archivos en src */
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] /* Excluir carpetas generadas y dependencias */
+}

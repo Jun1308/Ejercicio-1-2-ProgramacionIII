@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %> - <%= appName %>
+    </title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>
+                    <%= appName %>
+                </h1>
+            </div>
+            <nav class="nav">
+                <a href="/" class="nav-link"><i class="fas fa-home"></i> Inicio</a>
+                <a href="/acerca-de" class="nav-link"><i class="fas fa-info-circle"></i> Acerca de</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--
+        CONTENIDO PRINCIPAL
+        Renderiza la información del animal o una tarjeta personalizada.
+        En este caso, solo mostramos el nombre en grande.
+    -->
+    <main class="main-content">
+        <div class="container">
+
+
+            <div class="animal-detail-card"
+                style="display: flex; justify-content: center; align-items: center; min-height: 400px;">
+                <!-- Título gigante del animal -->
+                <h1
+                    style="font-size: 5rem; text-transform: uppercase; color: var(--primary-color); text-align: center;">
+                    <%= animal.nombre %>
+                </h1>
+            </div>
+
+            <!-- Botón de retorno -->
+            <div class="actions">
+                <a href="/" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Volver a buscar</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-paw"></i>
+                        <%= appName %>
+                    </h4>
+                </div>
+                <!-- Removed students info from footer to comply with request -->
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
