@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Películas Favoritas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Películas Favoritas</h1>
+        <div class="form-section">
+            <input type="text" id="movieName" placeholder="Nombre de la película" class="input-field">
+
+            <select id="genreSelect" class="input-field">
+                <option value="">Selecciona Género</option>
+            </select>
+
+            <select id="countrySelect" class="input-field">
+                <option value="">Selecciona País</option>
+            </select>
+
+            <button id="addBtn" class="btn">Agregar Película</button>
+        </div>
+
+        <div id="movieList" class="movie-list">
+            <!-- Las películas añadidas aparecerán aquí -->
+        </div>
+    </div>
+    <script src="./dist/app.js"></script>
+</body>
+
+</html>

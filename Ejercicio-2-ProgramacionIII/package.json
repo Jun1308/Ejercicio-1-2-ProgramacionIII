@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-peliculas",
+  "version": "1.0.0",
+  "description": "Ejercicio de enumeraciones con TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx http-server -c-1 -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "http-server": "^14.1.1"
+  }
+}
