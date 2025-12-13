@@ -25,7 +25,7 @@ enum Country {
     Brazil = "Mexico"
 }
 
-// 2.CLASES
+
 // Usamos una clase para definir la estructura de lo que es una "Película" en nuestro sistema.
 // El constructor utiliza la sintaxis abreviada de TypeScript para definir e inicializar propiedades a la vez.
 class Movie {
@@ -36,7 +36,7 @@ class Movie {
     ) { }
 }
 
-// 3. SELECCIÓN DE ELEMENTOS DEL DOM
+
 // Obtenemos referencias a los elementos HTML con los que vamos a interactuar.
 // Usamos 'as HTML...' para decirle a TypeScript qué tipo de elemento es exactamente (Type Casting).
 const genreSelect = document.getElementById('genreSelect') as HTMLSelectElement;

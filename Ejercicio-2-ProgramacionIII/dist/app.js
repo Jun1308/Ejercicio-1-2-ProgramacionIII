@@ -25,7 +25,6 @@ var Country;
     Country["Spain"] = "Espa\u00F1a";
     Country["Brazil"] = "Mexico";
 })(Country || (Country = {}));
-// 2.CLASES
 // Usamos una clase para definir la estructura de lo que es una "Película" en nuestro sistema.
 // El constructor utiliza la sintaxis abreviada de TypeScript para definir e inicializar propiedades a la vez.
 class Movie {
@@ -38,7 +37,6 @@ class Movie {
         this.country = country;
     }
 }
-// 3. SELECCIÓN DE ELEMENTOS DEL DOM
 // Obtenemos referencias a los elementos HTML con los que vamos a interactuar.
 // Usamos 'as HTML...' para decirle a TypeScript qué tipo de elemento es exactamente (Type Casting).
 const genreSelect = document.getElementById('genreSelect');
